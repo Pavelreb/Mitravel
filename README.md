@@ -13,13 +13,8 @@
 - Cascading Style Sheets CSS3
 - CSS Flexible Box Layout (Flexbox)
 - CSS Grid Layout
-- JavaScript EC6
-
-### Оптимизация проекта:
-- Компрессия изображений
-- Добавлены префиксы в .css файлы
-- Компрессия .html .css .js файлов
-- Проверка кода на валидность
+- Swiper Js (Библиотека слайдера)
+- Video Js (Библиотека видео плеера)
 
 ### Материалы проекта:
 Ссылка на макет Figma: [Перейти](https://www.figma.com/file/6doFNNXepkzolMs4usZlL1/MaxGraph-Youtube-marathon-1.0?t=IoMzqfFRulNog42d-6)
