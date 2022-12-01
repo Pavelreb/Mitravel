@@ -24,6 +24,21 @@ const swiperVideo = new Swiper('.video-swiper', {
     grabCursor: true,
     effect: "coverflow",
 
+    breakpoints: {
+        // when window width is >= 320px
+        768: {
+          spaceBetween: 25
+        },
+        // when window width is >= 992px
+        992: {
+          spaceBetween: 75
+        },
+        // when window width is >= 1200px
+        1201: {
+          spaceBetween: 105
+        },
+    },
+
     // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',

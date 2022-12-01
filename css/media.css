@@ -1,0 +1,351 @@
+@media (max-width: 1700px) {
+    .sign-up-container{
+        width: auto;
+        max-width: 100%;
+        margin: 0 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .header {
+        padding: 35px 0;
+    }
+
+    .intro-content {
+        padding: 155px 0 190px;
+    }
+
+    .intro-content-link {
+        margin-bottom: 30px;
+    }
+
+    .intro-content-title {
+        margin-bottom: 30px;
+    }
+
+    .intro-content-desc {
+        margin-bottom: 45px;
+    }
+
+    .intro-stories {
+        flex-direction: column-reverse;
+        width: 510px;
+        bottom: -170px;
+    }
+
+    .intro-form {
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        width: 510px;
+        height: 85px;
+        padding: 32px 40px 32px;
+        border-radius: 0 0 8px 8px;
+        border-left: 1px solid var(--gray-light-color);
+        border-right: 1px solid var(--gray-light-color);
+    }
+
+    .intro-swiper {
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        width: 510px;
+        height: 353px;
+    }
+
+    .intro-slide {
+        height: 268px;
+    }
+
+    .intro-slide-desc {
+        height: 85px;
+    }
+    .intro-swiper-button-prev, .intro-swiper-button-next {
+        bottom: 24px;
+    }
+
+    .become {
+        padding: 275px 0 105px;
+    }
+
+    .become-title {
+        margin-bottom: 65px;
+    }
+
+    .become-item {
+        width: 260px;
+        height: 390px;
+    }
+
+    .featured-stories-title {
+        padding-top: 90px;
+        margin-bottom: 90px;
+    }
+
+    .featured-stories-wrapper {
+        flex-wrap: wrap;
+        gap: 80px;
+        padding-bottom: 175px;
+    }
+
+    .featured-stories-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+        padding: 90px 50px;
+    }
+
+    .featured-stories-item {
+        margin-bottom: 0;
+    }
+
+    .featured-stories-item:last-child {
+        padding-bottom: 30px;
+        border-bottom: 1px solid var(--gray-medium-color);
+    }
+
+    .featured-videos {
+        padding: 105px 0 105px;
+    }
+
+    .featured-videos-title-desc {
+        margin-bottom: 65px;
+    }
+
+    .video-swiper {
+        padding: 45px 0;
+    }
+
+    .video-slide {
+        width: 625px;
+        height: 387px;
+    }
+
+    .sing-up-content {
+        padding-top: 235px;
+        padding-bottom: 125px;
+        margin-left: 90px;
+    }
+
+    .sign-up-form {
+        width: 350px;
+        padding-top: 50px;
+        right: 90px;
+    }
+
+    .sign-up-form-field {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .sign-up-form-btn {
+        margin-top: 45px;
+    }
+
+    .inspirations {
+        padding: 105px 0;
+    }
+
+    .inspirations-title {
+        margin: 0 auto 25px auto;
+    }
+
+    .inspirations-desc {
+        margin: 0 auto 65px auto;
+    }
+
+    .inspirations-item {
+        height: 350px;
+    }
+
+    .inspirations-item-title {
+        font-size: 24px;
+
+    }
+    .inspirations-item-hover-title {
+        font-size: 24px;
+    }
+
+    .footer {
+        padding-top: 90px;
+    }
+    .footer-container {
+        margin-bottom: 90px;
+    }
+
+    .footer-colomns {
+        width: 260px;
+    }
+}
+
+@media (max-width: 992px) {
+    .intro-stories {
+        right: 50%;
+        bottom: -295px;
+        margin: 0;
+        transform: translateX(50%);
+    }
+    .become {
+        padding: 375px 0 105px;
+    }
+    .sing-up-content {
+        padding-top: 135px;
+        padding-bottom: 225px;
+    }
+    .sign-up-form {
+        right: 50%;
+        bottom: -215px;
+        transform: translateX(50%);
+        border-left: 1px solid var(--gray-light-color);
+        border-right: 1px solid var(--gray-light-color);
+    }
+    .inspirations {
+        padding: 190px 0;
+    }
+    .inspirations-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .intro-content-link {
+        margin-bottom: 25px;
+        padding: 15px 26px 14px;
+    }
+    .intro-content-title {
+        font-size: 72px;
+        margin-bottom: 25px;
+    }
+    .intro-content-desc {
+        margin-bottom: 40px;
+    }
+    .intro-content-btn {
+        padding: 28px 76px;
+    }
+    .section-title {
+        font-size: 58px;
+    }
+    .featured-stories-title {
+        margin-bottom: 80px;
+    }
+    .main-stories-link {
+        padding: 15px 26px 14px;
+    }
+    .main-stories-title {
+        font-size: 40px;
+    }
+    .main-stories-desc {
+        margin-bottom: 35px;
+    }
+    .main-stories-read {
+        padding: 28px 76px;
+    }
+    .featured-stories-wrapper {
+        gap: 50px;
+        padding-bottom: 150px;
+    }
+    .featured-videos-title-desc {
+        margin-bottom: 55px;
+    }
+    .video-slide {
+        width: 400px;
+        height: 248px;
+    }
+    .video-slide-play {
+        width: 50px;
+        height: 50px;
+    }
+    .video-slide-title {
+        padding: 0 30px;
+        font-size: 24px;
+    }
+    .swiper-slide-active .video-slide-title {
+    bottom: 25px;
+    }
+    .video-swiper-button-prev, .video-swiper-button-next {
+        display: none;
+    }
+    .sing-up-content {
+        margin-left: 0;
+    }
+    .sign-up-title {
+        margin-bottom: 35px;
+    }
+    .inspirations-desc {
+        margin: 0 auto 55px auto;
+    }
+    .inspirations-item-title {
+        font-size: 18px;
+    }
+    .inspirations-item-hover-title {
+        font-size: 18px;
+    }
+    .inspirations {
+        padding: 190px 0 100px;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        padding: 30px 0;
+    }
+    .header-social {
+        gap: 30px;
+    }
+    .header-logo {
+        font-size: 18px;
+    }
+    .intro-content-title {
+        font-size: 64px;
+    }
+    .intro-stories {
+        width: 100%;
+    }
+    .intro-swiper {
+        width: 100%;
+    }
+    .intro-form {
+        width: 100%;
+    }
+    .intro-swiper-button-prev {
+        padding: 20px 20px 20px 30px;
+    }
+    .intro-swiper-button-next {
+        padding: 20px 30px 20px 20px;
+    }
+    .section-title {
+        font-size: 42px;
+    }
+    .main-stories-title {
+        font-size: 28px;
+    }
+    .inspirations-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .inspirations-item-wide {
+        grid-column: span 1;
+    }
+    .featured-stories-item-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 28px;
+    }
+    .featured-stories-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        gap: 70px;
+        padding: 90px 50px;
+    }
+    .featured-stories-item{
+        width: 100%;
+    }
+    .featured-stories-item-desc {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

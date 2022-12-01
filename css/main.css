@@ -316,8 +316,6 @@ body {
     justify-content: end;
     width: calc(100% - 60px);
     margin: 0 30px;
-    height: 50px;
-    background-color: #57a773;
 }
 
 .intro-form {
@@ -435,7 +433,7 @@ body {
 
 .intro-swiper-button-prev {
     background-image: url(../img/intro/svg/arrow-left.svg);
-    left: 0;
+    left: 5;
     padding: 20px 20px 20px 56px;
     right: auto;
 }
@@ -443,7 +441,7 @@ body {
 .intro-swiper-button-next{
     background-image: url(../img/intro/svg/arrow-right.svg);
     padding: 20px 56px 20px 20px ;
-    right: 0;
+    right: 5px;
     left: auto;
 }
 
@@ -542,7 +540,7 @@ body {
     padding-top: 130px;
     margin: 0 auto 130px auto;
     z-index: 7;
-    max-width: 370px;
+    max-width: 770px;
     color: var(--ligth-text-color);
     text-align: center;
 }
@@ -738,6 +736,7 @@ body {
     border-radius: 8px;
     background-color: rgba(27, 45, 59, 0.4);
     color: var(--ligth-text-color);
+    transform: translateY(-50%);
 }
 .video-swiper-button-prev{
     left: 20px;
@@ -865,8 +864,6 @@ body {
     grid-column: span 1;
     border-radius: 8px;
     overflow: hidden;
-
-    background-color: #57a773;
 }
 
 .inspirations-item-wide {
@@ -1084,6 +1081,11 @@ body {
     font-size: 13px;
     color: var(--gray-medium-color);
 }
+
+.footer-bottom-item a {
+    color: inherit;
+}
+
 .footer-bottom-list {
     gap: 30px;
 }
